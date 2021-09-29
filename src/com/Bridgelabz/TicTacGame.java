@@ -2,6 +2,12 @@ package com.Bridgelabz;
 
 public class TicTacGame {
     public static void main(String[] args) {
-        System.out.println("welcome message");
     }
+
+    public static void initialisingBoard() {
+        char[] emptyBoardCells = new char[10];
+        for (int i = 0; i < 10; i++) {
+            emptyBoardCells[i] = ' ';
+        }
     }
+}
